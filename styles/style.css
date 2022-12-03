@@ -1,0 +1,274 @@
+@font-face {
+    font-family: notosansReg;
+    src: url("../fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+    font-family: notosansExtBold;
+    src: url("../fonts/NotoSans-ExtraBold.ttf");
+}
+body{
+    background: #FFF5BF;
+    background-image: url("/img/backgrounds/background_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container{
+    background-color: white;
+    width: 80vw;
+    right: 10%;
+    left: 10%;
+    top: 60px;
+    position: absolute;
+}
+.wrapper{
+    display: flex;
+    margin: 30px 50px;
+    flex-wrap: wrap;
+}
+.top_nav{
+    justify-content: space-between;
+    align-items: center;
+    font-family: notosansReg;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 100;
+}
+.top_nav span{
+    flex-grow: 1;
+    color: black;
+    font-family: notosansExtBold;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+}
+.top_nav a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: inherit;
+}
+.top_nav img{
+    width: 32px;
+}
+.top_nav button{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+.white_rect_bg{
+    background-color: white;
+    transform: rotate(-3deg);
+}
+.white_rect_bg h2{
+    transform: rotate(3deg);
+}
+.yellow_rect_bg{
+    background-color: #EBD96B;
+    transform: rotate(-3deg);
+    background-size: cover;
+}
+.yellow_rect_bg h2{
+    transform: rotate(3deg);
+}
+.invite{
+    background-color: #F4F6F5;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.invite h2{
+    font-family: notosansExtBold;
+    font-size: 60px;
+    font-weight: 900;
+}
+.invite p{
+    font-family: notosansExtBold;
+    font-size: larger;
+}
+.invite_img{
+    width: 40vw;
+}
+.btn_black{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+}
+.btn_black a{
+    color: white;
+    font-weight: 100;
+    font-size: 1.4rem;
+    font-family: notosansReg;
+    text-decoration: none;
+}
+.sellers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EBD96B;
+    height: 100px;
+    width: 80vw;
+    box-sizing: border-box;
+}
+.sellers img{
+    background-color: #EBD96B;
+    mix-blend-mode: multiply;
+    height: 40px;
+    display: inline-block;
+}
+.section_head{
+    font-family: notosansExtBold;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.section_head h2{
+    display: inline;
+    position: relative;
+}
+.section_head img{
+    margin-left: -150px;
+    margin-bottom: -10px;
+}
+.item-row-3{
+    align-items: center;
+    justify-content: space-between;
+    font-family: notosansReg;
+}
+.item-row-3 img{
+    width: 20vw;
+}
+.card{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.invite_2{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%,
+    #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%,
+    #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%,
+    #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%,
+    #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%,
+    #FAE157 91.52%, #F9DF56 97.87%);
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.invite_2 h2{
+    font-family: notosansExtBold;
+    font-size: 80px;
+    font-weight: 900;
+}
+.invite_2 p{
+    font-family: notosansReg;
+    font-size: larger;
+}
+.invite_2 img{
+    width: 40vw;
+}
+.white_rect_bg{
+    width: 350px
+}
+.item-row-2{
+    align-items: center;
+    justify-content: space-between;
+    font-family: notosansReg;
+}
+.item-row-2 img{
+    display: flex;
+    width: 37vw;
+}
+.invite_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.invite_3 h2{
+    font-family: notosansExtBold;
+    font-size: 50px;
+    font-weight: 900;
+}
+.invite_3 p{
+    font-family: notosansReg;
+    font-size: larger;
+}
+.invite_3 img{
+    width: 25vw;
+    margin-left: -11vw;
+}
+.invite_3 .rect_logo{
+    width: 150px;
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.send_email{
+    background: #E5C643;
+    color: white;
+    text-align: center;
+    font-family: notosansReg;
+}
+.send_email h2{
+    font-family: notosansExtBold;
+    font-size: 40px;
+    padding-top: 140px;
+}
+.send_email input{
+    width: 450px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.send_email button{
+    margin-left: -160px;
+    font-size: 20px;
+}
+.send_email form{
+    padding-bottom: 140px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+
+}
+.bottom_social{
+    padding: 100px 0;
+    flex-grow: 3;
+    text-align: center;
+    font-family: notosansReg;
+}
+.footer ul{
+    flex-grow: 1;
+    list-style: none;
+    font-family: notosansReg;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+    font-family: notosansReg;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+.bottom_social img{
+   width: 32px;
+    height: 32px;
+    background-color: #EBD96B;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+
+}
